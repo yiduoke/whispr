@@ -16,6 +16,12 @@
   },
   "action": {
     "default_title": "Nostr Dissenter",
-    "default_popup": "src/popup.html"
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "512": "assets/icon-512.png"
+    }
+  },
+  "icons": {
+    "512": "assets/icon-512.png"
   }
 }
