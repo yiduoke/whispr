@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Nostr Dissenter (Svelte)",
+  "version": "0.3",
+  "description": "Decentralized page‑level comments via Nostr (custom kind 40001)",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["src/sidebar.html"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_title": "Nostr Dissenter"
+  }
+}

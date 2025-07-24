@@ -1,0 +1,1 @@
+console.log("Nostr Dissenter background service worker loaded");
