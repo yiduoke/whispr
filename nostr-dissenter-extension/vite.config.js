@@ -8,9 +8,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        contentScript: "src/contentScript.js",
         background: "src/background.js",
-        sidebar: "src/sidebar.html"
+        popup: "src/popup.html"
       },
       output: {
         entryFileNames: "[name].js"
