@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import { onMount } from "svelte";
   import {
     COMMENT_KIND,
@@ -128,4 +128,18 @@
       <button on:click={post}>Post Comment</button>
     </main>
   {/if}
+</div> -->
+
+<script>
+  // Temporary placeholder UI
+</script>
+
+<style>
+  body, html { margin:0; padding:0; font-family: Arial, sans-serif; }
+  .wrap { width: 320px; height: 240px; display:flex; align-items:center; justify-content:center; }
+  h1 { font-size: 24px; }
+</style>
+
+<div class="wrap">
+  <h1>meow meow meow</h1>
 </div>

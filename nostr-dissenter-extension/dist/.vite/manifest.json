@@ -10,11 +10,5 @@
     "name": "background",
     "src": "src/background.js",
     "isEntry": true
-  },
-  "src/popup.html": {
-    "file": "popup.js",
-    "name": "popup",
-    "src": "src/popup.html",
-    "isEntry": true
   }
 }
